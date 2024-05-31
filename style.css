@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background: url('') no-repeat center center/cover;
+    color: white;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+nav a {
+    font-size: 1.2rem;
+}
+
+#about img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
+
+.card-img-top{
+    height: 250px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 50vh;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+}
